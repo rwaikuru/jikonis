@@ -7,10 +7,6 @@ export default function HomePage() {
       <Sidebar />
       <main className="flex-1 p-6">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-foreground font-sans">Jikonis Dashboard</h1>
-            <p className="text-muted-foreground mt-2 font-serif">Welcome to your restaurant management system</p>
-          </div>
           <DashboardOverview />
         </div>
       </main>
